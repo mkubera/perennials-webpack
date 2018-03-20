@@ -11,3 +11,7 @@ html { font-size: 62.5%; }
 body {
   background-color: #eee;
 }
+
+.test-class {
+  background-color: red;
+}

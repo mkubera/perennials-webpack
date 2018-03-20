@@ -1,8 +1,11 @@
 module Main exposing (..)
 
 import Html exposing (..)
+import Html.Attributes exposing (class)
 
 
 main : Html msg
 main =
-    text "Main"
+    div [ class "test-class" ]
+        [ text "Main"
+        ]
